@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: antiquewhite;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid black;
+}
+
+.nav-link {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
